@@ -2,12 +2,19 @@
 
 def get_user_input():
   print("Welcome to the BNG - Band Name Generator!")
+  color = input("Enter your favorite color: ")
+  animal = input("Enter your favorite animal: ")
+  music_style = input("Enter a word that describes your music style: ")
+  number = input("Enter your favorite number: ")
+  return color, animal, music_style, number
+
+
 
 
 # 1. Start
 
-# 2. Define function: get_user_input()
-#     a. Print welcome message
+# 2. Define function: get_user_input() ✅
+#     a. Print welcome message ✅
 #     b. Ask user for their favorite color
 #     c. Ask user for their favorite animal
 #     d. Ask user for a word that describes their music style
