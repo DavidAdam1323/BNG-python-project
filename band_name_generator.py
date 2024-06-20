@@ -11,9 +11,14 @@ def get_user_input():
 def generate_band_name(inputs):
   color, animal, music_style, number = inputs
   band_name = f"The {color} {animal}s"
-  return print(band_name)
+  return band_name
   
-generate_band_name(get_user_input())
+def main():
+  user_inputs = get_user_input()
+  band_name = generate_band_name(user_inputs)
+  print(f"Your generated Band Name is: {band_name}")
+
+if __name__ == "__main__": main()
 
 # 1. Start
 
@@ -32,11 +37,11 @@ generate_band_name(get_user_input())
 #         - Or: "[Music Style] [Favorite Animal] [Number]"
 #     c. Return generated band name ✅
 
-# 4. Main program execution
-#     a. Call get_user_input() to collect inputs from the user
-#     b. Store returned inputs
-#     c. Call generate_band_name(inputs) with the collected inputs
-#     d. Store returned band name
-#     e. Print the generated band name
+# 4. Main program execution ✅
+#     a. Call get_user_input() to collect inputs from the user ✅
+#     b. Store returned inputs ✅
+#     c. Call generate_band_name(inputs) with the collected inputs ✅
+#     d. Store returned band name ✅
+#     e. Print the generated band name ✅
 
 # 5. End
