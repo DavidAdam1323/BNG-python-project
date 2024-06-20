@@ -1,3 +1,9 @@
+# Band Name Generator
+
+def get_user_input():
+  print("Welcome to the BNG - Band Name Generator!")
+
+
 # 1. Start
 
 # 2. Define function: get_user_input()
